@@ -1,0 +1,15 @@
+.infoWeath {
+    font-size: 16px;
+    color: #fff;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.head {
+    color: #14fa07;
+}
+
+.error {
+    color: #041f3c;
+    font-weight: bold;
+}

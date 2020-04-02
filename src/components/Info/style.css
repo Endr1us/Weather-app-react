@@ -1,0 +1,26 @@
+.info {
+    background: url("../../img/polygon.jpg") center center no-repeat;
+    background-blend-mode: multiply;
+    background-color: #484747;
+    border: 2px solid #1f1f1f;
+    border-right: 2px solid #131e29;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #000;
+    width: 100%;
+    min-height: 300px;
+}
+
+.info h2 {
+    font-size: 3em;
+    color: #fff;
+}
+
+.info p {
+    color: #e4e4e4;
+    font-weight: bold;
+}

@@ -1,0 +1,68 @@
+.form {
+    margin-top: 20px;
+    padding: 30px 50px;
+    border: 2px solid #113a65;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column nowrap;
+    text-align: center;
+}
+
+.selStyle {
+    margin: 30px;
+    padding: 5px;
+    border: 2px solid #091f02;
+    background-color: #235d9c;
+}
+
+.or {
+    text-align: center;
+    color: rgb(172, 5, 5)
+}
+
+input[type="text"] {
+    background-color: transparent;
+    border: 0;
+    border-bottom: solid 2px #113a65;
+    width: 100%;
+    padding-bottom: 4px;
+    color: #fff;
+    font-weight: lighter;
+    margin: 30px;
+    font-size: 20px;
+    outline: none;
+}
+
+input::-webkit-input-placeholder {
+    color: #103a65;
+}
+
+input::-moz-placeholder {
+    color: #103a65;
+}
+
+button {
+    border: 2px solid #103a65;
+    border-bottom: 4px solid #103a65;
+    padding: 8px 20px;
+    margin: 0 2px;
+    border-radius: 2px;
+    cursor: pointer;
+    background-color: #235d9c;
+    color: #fff;
+    outline: none !important;
+}
+
+button:hover {
+    border-bottom: 2px solid #103a65;
+    position: relative;
+    top: 2px;
+}
+
+button:active {
+    border-bottom: 2px solid transparent;
+    border-color: transparent;
+    position: relative;
+    top: 2px;
+}
